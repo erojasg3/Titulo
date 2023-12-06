@@ -8,9 +8,9 @@ public class CameraPointerManager : MonoBehaviour
     public static CameraPointerManager Instance;
     [SerializeField] private GameObject pointer;
     [SerializeField] private float maxDistancePointer = 4.5f;
-    [Range(0,1)]
+    [Range(0,100)]
     [SerializeField] private float disPointerObject = 0.95f;
-    private const float _maxDistance = 10;
+    private const float _maxDistance = 100;
     private GameObject _gazedAtObject = null;
 
     private readonly string interactableTag = "Interactable";
