@@ -12,7 +12,7 @@ public class TeleportManager : MonoBehaviour
     {
         if (Instance != this && Instance != null)
         {
-            Destroy(Instance);
+            Destroy(this);
         }
         else
         {

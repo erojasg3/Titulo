@@ -23,11 +23,12 @@ Library: D:\Titulo\Unity\Downloads\Templates\Titulo\Titulo\Temp\BurstOutput\temp
 --assembly-defines=Unity.RenderPipeline.Universal.ShaderLibrary;
 --assembly-defines=Unity.RenderPipelines.Core.Runtime;
 --assembly-defines=Unity.RenderPipelines.Universal.Runtime;
+--assembly-defines=Unity.TextMeshPro;
 --assembly-defines=Unity.XR.Management;
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\Titulo\Unity\Downloads\Templates\Titulo\Titulo\Temp\Burst
---key-folder=D:/Titulo/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=D:/Titulo/Unity/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=D:\Titulo\Unity\Downloads\Templates\Titulo\Titulo\Library\Burst
 --output=D:\Titulo\Unity\Downloads\Templates\Titulo\Titulo\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -57,11 +58,12 @@ Library: D:\Titulo\Unity\Downloads\Templates\Titulo\Titulo\Temp\BurstOutput\temp
 --assembly-defines=Unity.RenderPipeline.Universal.ShaderLibrary;
 --assembly-defines=Unity.RenderPipelines.Core.Runtime;
 --assembly-defines=Unity.RenderPipelines.Universal.Runtime;
+--assembly-defines=Unity.TextMeshPro;
 --assembly-defines=Unity.XR.Management;
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=D:\Titulo\Unity\Downloads\Templates\Titulo\Titulo\Temp\Burst
---key-folder=D:/Titulo/Unity/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=D:/Titulo/Unity/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=D:\Titulo\Unity\Downloads\Templates\Titulo\Titulo\Library\Burst
 --output=D:\Titulo\Unity\Downloads\Templates\Titulo\Titulo\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
