@@ -252,7 +252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 356591928}
-  - component: {fileID: 356591927}
+  - component: {fileID: 356591929}
   m_Layer: 0
   m_Name: TeleportManager
   m_TagString: Untagged
@@ -260,19 +260,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &356591927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 356591926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9550ccbcc9c32a744a725f430cf5cbdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 792235856}
 --- !u!4 &356591928
 Transform:
   m_ObjectHideFlags: 0
@@ -289,6 +276,19 @@ Transform:
   - {fileID: 1559221402}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &356591929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356591926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a6090dd866c934089c3be11f1a70cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 792235856}
 --- !u!1 &511351941 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3442564455458864423, guid: b43d0e127a7008641b20eccdbeaf7012,
@@ -806,7 +806,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6897416843632383775, guid: b43d0e127a7008641b20eccdbeaf7012,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1559221406}
+      addedObject: {fileID: 1559221410}
   m_SourcePrefab: {fileID: 100100000, guid: b43d0e127a7008641b20eccdbeaf7012, type: 3}
 --- !u!4 &1559221402 stripped
 Transform:
@@ -814,7 +814,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1559221401}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1559221406
+--- !u!114 &1559221410
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -823,7 +823,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 553563335}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 743d765751c79714aa8d744868e7ee0a, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e1989bdf45702e4794b6eec4a6b2659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   OnTeleportEnter:
