@@ -9,8 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Terremoto.unity
     guid: 70c3fb63171f4b34d80a99740fba0857
   - enabled: 1
-    path: Assets/Scenes/Pruebas.unity
-    guid: 4321c77dd4adb2047ab71ea3c24a59b4
+    path: "Assets/Scenes/Men\xFA principal.unity"
+    guid: 50e86004b4f45d442ab22b4438ed5f17
+  - enabled: 1
+    path: Assets/Scenes/Incendio.unity
+    guid: f288242b32c1fc845b9f9f8f39e0113a
+  - enabled: 1
+    path: Assets/Scenes/Tsunami.unity
+    guid: e2191974dafcf8c4bb7f0771cb52127d
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0cbbd9055c4d6074c8fbc62756a95305,
       type: 2}
