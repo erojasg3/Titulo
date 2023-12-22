@@ -16,8 +16,10 @@ public class ShakeTransformS : MonoBehaviour
 	public float _distance = 0.1f;
 	[Range(0f, 0.100f)]
 	public float _delayBetweenShakes = 0f;
+	public GameObject ObjectToActivate;
+	public GameObject ObjectToActivate1;
 
-	private void Awake()
+    private void Awake()
 	{
 		_startPos = transform.position;
 	}
@@ -53,10 +55,15 @@ public class ShakeTransformS : MonoBehaviour
 			else
 			{
 				yield return null;
+
 			}
-		}
+        }
 
+		
 		transform.position = _startPos;
-	}
+		if(ObjectToActivate != null && ObjectToActivate1 != null)
+        ObjectToActivate.SetActive(true);
+		ObjectToActivate1.SetActive(true);
 
+    }
 }
