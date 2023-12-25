@@ -2994,10 +2994,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Al encontrarte en un edificio, quedate  es tu refugio hasta que el terremoto
+  m_text: "Al encontrarte en un edificio, qu\xE9date en tu refugio hasta que el terremoto
     termine y sea seguro salir. Salir durante un terremoto aumenta el riesgo de salir
     lastimado. Cuando termine el terremoto mira el cubo para poder salir a buscar
-    una zona segura.
+    una zona segura."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3810,10 +3810,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Usa las escalera evitando los ascensores en caso de ser necesario. Busca
-    posibles peligros a tu alrededor producido por el terremoto, evitandolos en tu
-    camino a la zona segura mas cercana. En la escuela la zona segura corresponde 
-    a la zona central prosigue tu camino hasta ella.
+  m_text: "Usa la escalera evitando los ascensores en caso de ser necesario. Busca
+    posibles peligros a tu alrededor producido por el terremoto, evit\xE1ndolos en
+    tu camino a la zona segura m\xE1s cercana. En la escuela la zona segura corresponde
+    a la zona central, prosigue tu camino hasta ella."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4773,7 +4773,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1791837652
 Canvas:
   m_ObjectHideFlags: 0
@@ -5334,10 +5334,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lo mas importante ante un terremoto es mantener la calma siempre, el panico
-    es tu peor enemigo. Al encontrarte en un edificio lo mejor es buscar cobertura
-    debajo de una mesa como la que tienes a la izquierda, alejandote en todo lo posible
-    de ventanas y objetos peligrosos.
+  m_text: "Lo m\xE1s importante ante un terremoto es mantener la calma siempre, el
+    p\xE1nico es tu peor enemigo. Al encontrarte en un edificio lo mejor es buscar
+    cobertura debajo de una mesa como la que tienes a la izquierda, alej\xE1ndote
+    en todo lo posible de ventanas y objetos peligrosos."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

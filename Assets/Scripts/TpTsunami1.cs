@@ -6,6 +6,7 @@ public class TpTsunami : MonoBehaviour
 {
     public GameObject teleportTarget;
     public GameObject thePlayer;
+    public 
     
     void OnTriggerEnter(Collider other)
     {
