@@ -22,6 +22,7 @@ public class TeleportPoint : MonoBehaviour
         ExecuteTeleportation();
         OnTeleport?.Invoke();
         TeleportManager.Instance.DisableTeleportPoint(gameObject);
+
     }
     public void OnPostRender()
     {
@@ -35,5 +36,6 @@ public class TeleportPoint : MonoBehaviour
         Camera camera = player.GetComponentInChildren<Camera>();
         float rotY = transform.rotation.eulerAngles.y - camera.transform.localEulerAngles.y;
         player.transform.rotation = Quaternion.Euler(0, rotY, 0);
+
     }
 }

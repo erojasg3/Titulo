@@ -21,10 +21,6 @@ public class TeleportManager : MonoBehaviour
     }
    public void DisableTeleportPoint(GameObject teleportPoint)
     {
-        if(lastTeleportPoint != null) 
-        { 
-            lastTeleportPoint.SetActive(true);
-        }
         teleportPoint.SetActive(false);
         lastTeleportPoint = teleportPoint;
 #if UNITY_EDITOR
