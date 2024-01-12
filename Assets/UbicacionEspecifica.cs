@@ -32,5 +32,9 @@ public class UbicacionEspecifica : MonoBehaviour
     {
         GameObject player = TeleportManager.Instance.Player;
         player.transform.position = new Vector3(-44.2809982f, 49.1426926f, -81.9669189f);
+        Camera camera = player.GetComponentInChildren<Camera>();
+        float rotY = transform.rotation.eulerAngles.y - camera.transform.localEulerAngles.y;
+        player.transform.rotation = Quaternion.Euler(0, rotY, 0);
+
     }
 }

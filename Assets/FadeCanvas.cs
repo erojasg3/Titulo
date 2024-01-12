@@ -7,44 +7,16 @@ public class FadeCanvas : MonoBehaviour
 {
     [SerializeField] private CanvasGroup _canvasGroup;
 
-    [SerializeField] private bool fadeIn = false;
-    [SerializeField] private bool fadeOut = false;
-    // Start is called before the first frame update
-    public void ShowUI()
+    private void Start()
     {
-        fadeIn = true;
-    }
-    public void HideUi()
-    {
-        fadeOut = true;
+        _canvasGroup.alpha = 1;
     }
 
     private void Update()
     {
-        if (fadeIn)
+        if (_canvasGroup.alpha >0)
         {
-            if(_canvasGroup.alpha <1)
-            {
-                _canvasGroup.alpha += Time.deltaTime;
-                if(_canvasGroup.alpha >= 1 ) 
-                { 
-                    fadeIn= false;
-                }
-            }
-
-        }
-
-        if (fadeOut)
-        {
-            if(_canvasGroup.alpha >=0) 
-            {
-                _canvasGroup.alpha -= Time.deltaTime;
-                if (_canvasGroup.alpha == 0)
-                {
-                    fadeOut = false;
-                }
-            }
+            _canvasGroup.alpha -=Time.deltaTime;
         }
     }
 }
-
