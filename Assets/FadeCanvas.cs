@@ -19,4 +19,13 @@ public class FadeCanvas : MonoBehaviour
             _canvasGroup.alpha -=Time.deltaTime;
         }
     }
+    public void Fade()
+    {
+        _canvasGroup.alpha = 1;
+        if (_canvasGroup.alpha > 0)
+        {
+            _canvasGroup.alpha -= Time.deltaTime;
+        }
+
+    }
 }
